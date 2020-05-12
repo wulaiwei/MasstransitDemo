@@ -1,0 +1,4 @@
+bin/
+obj/
+/packages/
+/.vs/WorkDataMassTransit/v16/Server/sqlite3

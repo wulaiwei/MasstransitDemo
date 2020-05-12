@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\workdata\.Rider2019.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\workdata\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\workdata\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_WorkDataMassTransit.-330304688.00" t="ExcludeRecursive" />
+    <e p="D:\Demo\Masstransit\WorkDataMassTransit" t="IncludeFlat">
+      <e p="Automatonymous" t="Include" />
+      <e p="Configuration" t="Include" />
+      <e p="MassTransitCourier" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SagaPersistence" t="Include" />
+      <e p="WorkDataMassTransit.sln" t="IncludeFlat" />
+      <e p="WorkDataMassTransitAutomatonymous" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="WorkDataMassTransitAutomatonymous.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OrderStateMachine.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="WorkDataMassTransitAutomatonymous.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WorkDataMassTransitConfiguration" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Consumers" t="Include">
+          <e p="CheckOrderStatusConsumer.cs" t="Include" />
+          <e p="OrderConsumer.cs" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="WorkDataMassTransitConfiguration.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WorkDataMassTransitConfiguration.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WorkDataMassTransitCourier" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20200410010605_202004100904.cs" t="Include" />
+          <e p="20200410010605_202004100904.Designer.cs" t="Include" />
+          <e p="OrderStateDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="WorkDataMassTransitCourier.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="ScheduleNotificationConsumer.cs" t="Include" />
+        <e p="ServiceProviderHangfireComponentResolver.cs" t="Include" />
+        <e p="Startup.cs" t="Include" />
+        <e p="StateMachine" t="Include">
+          <e p="Activity" t="Include">
+            <e p="SubmitOrderEventActivity.cs" t="Include" />
+          </e>
+          <e p="Consumer" t="Include" />
+          <e p="Contract" t="Include">
+            <e p="PayOrder.cs" t="Include" />
+            <e p="SubmitOrder.cs" t="Include" />
+            <e p="SubmitOrderCompleted.cs" t="Include" />
+            <e p="SubmitOrderFaulted.cs" t="Include" />
+          </e>
+          <e p="CourierActivity" t="Include">
+            <e p="DbStockActivity.cs" t="Include" />
+            <e p="RedisStockActivity.cs" t="Include" />
+            <e p="SaveOrderActivity.cs" t="Include" />
+          </e>
+          <e p="OrderState.cs" t="Include" />
+          <e p="OrderStateDbContext.cs" t="Include" />
+          <e p="OrderStateMachine.cs" t="Include" />
+        </e>
+        <e p="WorkDataMassTransitCourier.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WorkDataMassTransitSagaPersistence" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Consumers" t="Include">
+          <e p="RemoveStockConsumer.cs" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20200402091422_202004021714.cs" t="Include" />
+          <e p="20200402091422_202004021714.Designer.cs" t="Include" />
+          <e p="OrderStateDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="WorkDataMassTransitSagaPersistence.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Saga" t="Include">
+          <e p="ContextFactory.cs" t="Include" />
+          <e p="Order" t="Include">
+            <e p="Event" t="Include">
+              <e p="OrderStateSaga.cs" t="Include" />
+              <e p="PayOrder.cs" t="Include" />
+              <e p="RemoveStock.cs" t="Include" />
+              <e p="RemoveStockResponse.cs" t="Include" />
+              <e p="SaveOrderResposne.cs" t="Include" />
+              <e p="SubmitOrder.cs" t="Include" />
+              <e p="SubmitOrderEventActivity.cs" t="Include" />
+            </e>
+            <e p="OrderState.cs" t="Include" />
+            <e p="OrderStateDbContext.cs" t="Include" />
+            <e p="OrderStateMachine.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WorkDataMassTransitSagaPersistence.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

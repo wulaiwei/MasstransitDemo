@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UserSecretsId>aspnet-WorkDataMassTransitConfiguration-3119EDC0-69F8-4A49-828F-E2F8F8AECC69</UserSecretsId>
+        <WebProject_DirectoryAccessLevelKey>0</WebProject_DirectoryAccessLevelKey>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MassTransit.AspNetCore" Version="6.2.3" />
+        <PackageReference Include="MassTransit.RabbitMQ" Version="6.2.3" />
+    </ItemGroup>
+
+</Project>
