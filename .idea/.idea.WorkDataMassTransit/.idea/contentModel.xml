@@ -1,15 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\workdata\.Rider2019.2\config\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\workdata\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\workdata\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_WorkDataMassTransit.-330304688.00" t="ExcludeRecursive" />
-    <e p="D:\Demo\Masstransit\WorkDataMassTransit" t="IncludeFlat">
+    <e p="C:\Users\workdata\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\workdata\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_WorkDataMassTransit.-1458592283.00" t="ExcludeRecursive" />
+    <e p="D:\私有项目\MasstransitDemo" t="IncludeFlat">
       <e p="Automatonymous" t="Include" />
       <e p="Configuration" t="Include" />
       <e p="MassTransitCourier" t="Include" />
+      <e p="MassTransitShopCart" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+          <e p="MainController.cs" t="Include" />
+        </e>
+        <e p="MassTransitShopCart.csproj" t="IncludeRecursive" />
+        <e p="MassTransitShopCart.xml" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20201021073715_init.cs" t="Include" />
+          <e p="20201021073715_init.Designer.cs" t="Include" />
+          <e p="20201022062339_update_shopcart.cs" t="Include" />
+          <e p="20201022062339_update_shopcart.Designer.cs" t="Include" />
+          <e p="20201022065844_2001022.cs" t="Include" />
+          <e p="20201022065844_2001022.Designer.cs" t="Include" />
+          <e p="20201022070125_13.cs" t="Include" />
+          <e p="20201022070125_13.Designer.cs" t="Include" />
+          <e p="ShopCartConextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="ErrorViewModel.cs" t="Include" />
+          <e p="Input" t="Include">
+            <e p="AddOrder.cs" t="Include" />
+          </e>
+          <e p="IStackExchangeRedisHelper.cs" t="Include" />
+          <e p="Order.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
+          <e p="ShopConext.cs" t="Include" />
+          <e p="ViewModel" t="Include">
+            <e p="ProductStockCache.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="MassTransitShopCart.AssemblyInfo.cs" t="Include" />
+              <e p="MassTransitShopCart.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Shop.db" t="Include" />
+        <e p="Shop.db-shm" t="Include" />
+        <e p="Shop.db-wal" t="Include" />
+        <e p="ShopCart.db" t="Include" />
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+            <e p="Privacy.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="js" t="Include">
+            <e p="site.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap-grid.css" t="Include" />
+                  <e p="bootstrap-grid.css.map" t="Include" />
+                  <e p="bootstrap-grid.min.css" t="Include" />
+                  <e p="bootstrap-grid.min.css.map" t="Include" />
+                  <e p="bootstrap-reboot.css" t="Include" />
+                  <e p="bootstrap-reboot.css.map" t="Include" />
+                  <e p="bootstrap-reboot.min.css" t="Include" />
+                  <e p="bootstrap-reboot.min.css.map" t="Include" />
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.bundle.js" t="Include" />
+                  <e p="bootstrap.bundle.js.map" t="Include" />
+                  <e p="bootstrap.bundle.min.js" t="Include" />
+                  <e p="bootstrap.bundle.min.js.map" t="Include" />
+                  <e p="bootstrap.js" t="Include" />
+                  <e p="bootstrap.js.map" t="Include" />
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="bootstrap.min.js.map" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE" t="Include" />
+            </e>
+            <e p="jquery" t="Include">
+              <e p="dist" t="Include">
+                <e p="jquery.js" t="Include" />
+                <e p="jquery.min.js" t="Include" />
+                <e p="jquery.min.map" t="Include" />
+              </e>
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="jquery-validation" t="Include">
+              <e p="dist" t="Include">
+                <e p="additional-methods.js" t="Include" />
+                <e p="additional-methods.min.js" t="Include" />
+                <e p="jquery.validate.js" t="Include" />
+                <e p="jquery.validate.min.js" t="Include" />
+              </e>
+              <e p="LICENSE.md" t="Include" />
+            </e>
+            <e p="jquery-validation-unobtrusive" t="Include">
+              <e p="jquery.validate.unobtrusive.js" t="Include" />
+              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="SagaPersistence" t="Include" />
+      <e p="ShopCart" t="Include" />
       <e p="WorkDataMassTransit.sln" t="IncludeFlat" />
       <e p="WorkDataMassTransitAutomatonymous" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />

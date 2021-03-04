@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MassTransitShopCart</name>
+    </assembly>
+    <members>
+        <member name="T:MassTransitShopCart.Controllers.MainController">
+            <summary>
+            MainController
+            </summary>
+        </member>
+        <member name="M:MassTransitShopCart.Controllers.MainController.#ctor(Microsoft.Extensions.Logging.ILogger{MassTransitShopCart.Controllers.MainController},WorkData.Abp.Caching.IDistributedCache{MassTransitShopCart.Models.ViewModel.ProductStockCache},MassTransitShopCart.Models.ShopConext,MassTransitShopCart.Models.IStackExchangeRedisHelper)">
+            <summary>
+            MainController
+            </summary>
+            <param name="logger"></param>
+            <param name="distributedCache"></param>
+            <param name="shopCartConext"></param>
+            <param name="stackExchangeRedisHelper"></param>
+        </member>
+        <member name="M:MassTransitShopCart.Controllers.MainController.AddShopCart(MassTransitShopCart.Models.Input.AddOrder)">
+            <summary>
+            AddShopCart
+            </summary>
+            <param name="addOrder"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MassTransitShopCart.Models.IStackExchangeRedisHelper">
+            <summary>
+            IStackExchangeRedisHelper
+            </summary>
+        </member>
+        <member name="M:MassTransitShopCart.Models.IStackExchangeRedisHelper.GetDatabase">
+            <summary>
+            获取db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MassTransitShopCart.Models.StackExchangeRedisHelper">
+            <summary>
+            StackExchangeRedisHelper
+            </summary>
+        </member>
+        <member name="M:MassTransitShopCart.Models.StackExchangeRedisHelper.#ctor">
+            <summary>
+            StackExchangeRedisHelper
+            </summary>
+        </member>
+        <member name="P:MassTransitShopCart.Models.StackExchangeRedisHelper.Instance">
+            <summary>
+            使用一个静态属性来返回已连接的实例，如下列中所示。这样，一旦 ConnectionMultiplexer 断开连接，便可以初始化新的连接实例。
+            </summary>
+        </member>
+        <member name="M:MassTransitShopCart.Models.StackExchangeRedisHelper.GetDatabase">
+            <summary>
+            获取db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MassTransitShopCart.Startup.InitializeDatabase(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            初始化数据
+            </summary>
+            <param name="app"></param>
+        </member>
+    </members>
+</doc>
